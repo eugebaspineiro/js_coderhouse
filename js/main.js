@@ -1,5 +1,5 @@
 function piedraPapelTijera(){
-    
+
     let elegirOpcion = prompt(`¡Hola vamos a iniciar el juego!
         Primero tenes que seleccionar una opcion:
         1. Piedra
@@ -40,15 +40,15 @@ function piedraPapelTijera(){
         (eleccionJugadorTexto === "papel" && eleccionComputadora === "piedra") ||
         (eleccionJugadorTexto === "tijera" && eleccionComputadora === "papel")
     ){
-        alert("Felicidades, ganaste! Elegiste" + " " + eleccionJugadorTexto + " y la computadora eligio "+ eleccionComputadora);
+        alert("¡Felicidades, ganaste! Elegiste" + " " + eleccionJugadorTexto + " y la computadora eligio "+ eleccionComputadora);
     } else {
-        alert("Perdiste! Elegiste " + eleccionJugadorTexto + " y la computadora eligio " + eleccionComputadora )
+        alert("¡Perdiste! Elegiste " + eleccionJugadorTexto + " y la computadora eligio " + eleccionComputadora )
     }
 
-    if (confirm("Queres jugar de nuevo?")){
+    if (confirm("¿Queres jugar de nuevo?")){
         piedraPapelTijera();
     } else {
-        alert("Gracias por jugar!")
+        alert("¡Gracias por jugar!")
     }
 
 
